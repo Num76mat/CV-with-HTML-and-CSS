@@ -1,0 +1,106 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(139, 103, 61, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+.container .barra{
+    position: relative;
+    background: #8B673D;
+    padding: 40px;
+}
+.container .info{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.Textoperfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Textoperfil .imagn{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.Textoperfil .imagn img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Textoperfil h2{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.Contacto{
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Educación{
+    color: white;
+    text-align: justify;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Idiomas{
+    color: white;
+    text-align: justify;
+}
+
+
+
+.Presentación{
+    text-align: justify;
+}
+.Sobre-mi{
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.Habilidades{
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.Experiencia-laboral{
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
